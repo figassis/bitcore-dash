@@ -82,9 +82,9 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.13.20",
+    "@dashevo/dashcore-lib": "^0.15.5",
     "bitcore-node-dash": "~3.0.4",
-    "insight-api-dash": "^0.4.5",
+    "@dashevo/insight-api": "^0.6.0",
     "insight-ui-dash": "^0.4.3"
   },
   "license": "MIT",
