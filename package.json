@@ -8,88 +8,20 @@
     "test": "./node_modules/.bin/mocha test/** --recursive",
     "build-deb": "./scripts/build-deb"
   },
+  "repository": {
+    "type": "git", "url": "https://github.com/figassis/bitcore-dash.git"
+  },
   "bin": {
     "bitcore": "./bin/bitcore",
     "bitcored": "./bin/bitcored"
   },
-  "contributors": [
-    {
-      "name": "Daniel Cousens",
-      "email": "bitcoin@dcousens.com"
-    },
-    {
-      "name": "Esteban Ordano",
-      "email": "eordano@gmail.com"
-    },
-    {
-      "name": "Gordon Hall",
-      "email": "gordon@bitpay.com"
-    },
-    {
-      "name": "Jeff Garzik",
-      "email": "jgarzik@bitpay.com"
-    },
-    {
-      "name": "Kyle Drake",
-      "email": "kyle@kyledrake.net"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Ryan X. Charles",
-      "email": "ryanxcharles@gmail.com"
-    },
-    {
-      "name": "Stefan Thomas",
-      "email": "moon@justmoon.net"
-    },
-    {
-      "name": "Stephen Pair",
-      "email": "stephen@bitpay.com"
-    },
-    {
-      "name": "Wei Lu",
-      "email": "luwei.here@gmail.com"
-    }
-  ],
-  "keywords": [
-    "dash",
-    "transaction",
-    "address",
-    "p2p",
-    "ecies",
-    "cryptocurrency",
-    "blockchain",
-    "payment",
-    "bip21",
-    "bip32",
-    "bip37",
-    "bip69",
-    "bip70",
-    "multisig"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dashevo/bitcore-dash.git"
-  },
-  "browser": {
-    "request": "browser-request"
-  },
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.15.5",
-    "bitcore-node-dash": "~3.0.4",
-    "@dashevo/insight-api": "^0.6.0",
-    "insight-ui-dash": "^0.4.3"
+    "@dashevo/dashcore-lib": "git+https://github.com/dashevo/dashcore-lib.git",
+    "@dashevo/dashcore-node": "git+https://github.com/dukle/dashcore-node.git",
+    "@dashevo/insight-api": "git+https://github.com/dashevo/insight-api.git",
+    "@dashevo/insight-ui": "git+https://github.com/dashevo/insight-ui.git",
   },
+  "keywords": [ "dash", "cryptocurrency", "blockchain", "payment" ],
   "license": "MIT",
-  "devDependencies": {
-    "chai": "^3.3.0",
-    "mocha": "^2.3.3"
-  }
+  "devDependencies": { "chai": "^3.3.0", "mocha": "^2.3.3" }
 }
