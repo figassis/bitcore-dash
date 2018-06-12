@@ -3,5 +3,5 @@
 var bitcore = require('@dashevo/dashcore-node/lib/cli/dashcore.js');
 var path = require('path');
 var servicesPath = path.resolve(__dirname, '../');
-var additionalServices = ['insight-api', 'insight-ui'];
+var additionalServices = ['@dashevo/insight-api', '@dashevo/insight-ui'];
 bitcore(servicesPath, additionalServices);
