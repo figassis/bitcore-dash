@@ -9,7 +9,8 @@
     "build-deb": "./scripts/build-deb"
   },
   "repository": {
-    "type": "git", "url": "https://github.com/figassis/bitcore-dash.git"
+    "type": "git",
+    "url": "https://github.com/figassis/bitcore-dash.git"
   },
   "bin": {
     "bitcore": "./bin/bitcore",
@@ -19,9 +20,12 @@
     "@dashevo/dashcore-lib": "git+https://github.com/dashevo/dashcore-lib.git",
     "@dashevo/dashcore-node": "git+https://github.com/dukle/dashcore-node.git",
     "@dashevo/insight-api": "git+https://github.com/dashevo/insight-api.git",
-    "@dashevo/insight-ui": "git+https://github.com/dashevo/insight-ui.git",
+    "@dashevo/insight-ui": "git+https://github.com/dashevo/insight-ui.git"
   },
-  "keywords": [ "dash", "cryptocurrency", "blockchain", "payment" ],
+  "keywords": ["dash", "cryptocurrency", "blockchain", "payment"],
   "license": "MIT",
-  "devDependencies": { "chai": "^3.3.0", "mocha": "^2.3.3" }
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
 }
