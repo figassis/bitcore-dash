@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@dashevo/dashcore-lib": "git+https://github.com/dashevo/dashcore-lib.git",
-    "@dashevo/dashcore-node": "git+https://github.com/dukle/dashcore-node.git",
+    "@dashevo/dashcore-node": "git+https://github.com/dashevo/dashcore-node.git",
     "@dashevo/insight-api": "git+https://github.com/dashevo/insight-api.git",
     "@dashevo/insight-ui": "git+https://github.com/dashevo/insight-ui.git"
   },
